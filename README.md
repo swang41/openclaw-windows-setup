@@ -13,7 +13,6 @@ Install:
 - Docker Desktop
 - WSL2 (Ubuntu recommended)
 - Git
-- Node.js 18+ (inside WSL)
 - Telegram bot token (via @BotFather)
 - Anthropic API key
 
@@ -51,7 +50,7 @@ OPENCLAW_GATEWAY_TOKEN=any_random_string
 Make sure the gateway service includes the environment file:
 
 ```yaml
-env_file: ./env
+env_file: ./.env
 ```
 
 Example block:
